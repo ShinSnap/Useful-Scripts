@@ -3,7 +3,7 @@
 ############################################
 ############################################
 ## Script For New Computer or Fresh Image ##
-######### by JPEREZSANCHEZ #################
+########### by C3R34LK1LL3R ################
 ############################################
 
 echo Install all AppStore Apps at first!
@@ -13,8 +13,11 @@ echo Install all AppStore Apps at first!
 read -p "Press any key to continue... " -n1 -s
 echo  '\n'
 
-echo Installing Homebrew, Oh-, wget and cask
+echo Installing Homebrew, Oh-My-Zsh, wget and cask
+
+#Homebrew installation script
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#Oh-My-Zsh installation script
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 brew install wget
@@ -29,6 +32,9 @@ brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="~/Applications" vlc
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
+
+# Don’t display the annoying prompt when quitting iTerm
+defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 ## get from App Store
 #brew cask install --appdir="/Applications" evernote
@@ -68,6 +74,7 @@ brew cask install --appdir="/Applications" firefox
 #brew cask install --appdir="/Applications" all2mp3
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" spotify-notifications
+brew cask install --appdir="/Applications" snagit
 
 
 # cleanup
