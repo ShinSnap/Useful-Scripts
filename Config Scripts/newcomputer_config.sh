@@ -59,6 +59,9 @@ brew cask install --appdir="/Applications" vagrant
 #brew cask install --appdir="/Applications" charles
 #brew cask install --appdir="/Applications" easyfind
 
+# Game Development
+brew cask install --appdir="/Applications" epic-games
+
 # Ruby Environment Manager
 echo Installing RVM
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
@@ -80,12 +83,15 @@ echo Install Some additional Apps
 #brew cask install --appdir="/Applications" lastfm
 #brew cask install --appdir="/Applications" all2mp3
 brew cask install --appdir="/Applications" spotify
-brew cask install --appdir="/Applications" spotify-notifications
+#brew cask install --appdir="/Applications" spotify-notifications
 brew cask install --appdir="/Applications" snagit
 brew cask install --appdir="/Applications" discord
 brew cask install --appdir="/Applications" steam
 brew cask install --appdir="/Applications" royal-tsx
-
+brew cask install --appdir="/Applications" filezilla
+brew cask install --appdir="/Applications" twitch
+brew cask install --appdir="/Applications" applepi-baker
+brew cask install --appdir="/Applications" adobe-creative-cloud
 
 # cleanup
 echo Cleaning up installation
