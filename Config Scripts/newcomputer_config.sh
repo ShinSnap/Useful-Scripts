@@ -90,4 +90,5 @@ brew cask install --appdir="/Applications" royal-tsx
 # cleanup
 echo Cleaning up installation
 brew cleanup --force
+brew doctor
 rm -f -r /Library/Caches/Homebrew/*
