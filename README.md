@@ -1,2 +1,2 @@
-## My Colletion of Useful Scripts
-These are scripts that collected over the years. Most of them are useful for me but may not be for anyone else.
+## My Collection of Misc Scripts
+This is a collection of scripts that I have acquired or created over the years. Most of them are useful to me but may not be useful to you.

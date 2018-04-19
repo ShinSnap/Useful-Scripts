@@ -47,6 +47,7 @@ echo Installing Dev Apps
 brew cask install --appdir="/Applications" github
 brew cask install --appdir="/Applications" gitkraken
 brew cask install --appdir="/Applications" atom
+brew cask install --appdir="/Applications" visual-studio
 #brew cask install --appdir="/Applications" heroku-toolbelt
 #brew cask install --appdir="/Applications" sublime-text
 #brew cask install --appdir="/Applications" webstorm
@@ -60,7 +61,8 @@ brew cask install --appdir="/Applications" vagrant
 #brew cask install --appdir="/Applications" easyfind
 
 # Game Development
-brew cask install --appdir="/Applications" epic-games
+#brew cask install --appdir="/Applications" epic-games
+brew cask install --appdir="/Applications" unity
 
 # Ruby Environment Manager
 echo Installing RVM
@@ -92,6 +94,8 @@ brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" twitch
 brew cask install --appdir="/Applications" applepi-baker
 brew cask install --appdir="/Applications" adobe-creative-cloud
+brew cask install --appdir="/Applications" mpv
+brew cask install --appdir="/Applications" etcher
 
 # cleanup
 echo Cleaning up installation
