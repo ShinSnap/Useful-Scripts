@@ -34,20 +34,24 @@ echo Install Core Apps
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
 
+# Windows Management Tools
+brew cask install chunkwm
+brew cask install skhd
+
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 ## get from App Store
 brew cask install --appdir="/Applications" evernote
-#brew cask install --appdir="/Applications" wunderlist
+brew cask install --appdir="/Applications" wunderlist
 #brew cask install --appdir="/Applications" clamxav
 
 # Development
 echo Installing Dev Apps
 brew cask install --appdir="/Applications" github
-brew cask install --appdir="/Applications" gitkraken
-brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" visual-studio
+#brew cask install --appdir="/Applications" gitkraken
+#brew cask install --appdir="/Applications" atom
+brew cask install --appdir="/Applications" visual-studio-code
 #brew cask install --appdir="/Applications" heroku-toolbelt
 #brew cask install --appdir="/Applications" sublime-text
 #brew cask install --appdir="/Applications" webstorm
@@ -62,7 +66,7 @@ brew cask install --appdir="/Applications" vagrant
 
 # Game Development
 #brew cask install --appdir="/Applications" epic-games
-brew cask install --appdir="/Applications" unity
+#brew cask install --appdir="/Applications" unity
 
 # Ruby Environment Manager
 echo Installing RVM
@@ -71,7 +75,7 @@ echo Installing RVM
 
 # Google Slavery
 echo Install Google Apps | Chrome not included cause of 1Password Plugin
-brew cask install --appdir="/Applications" google-chrome
+#brew cask install --appdir="/Applications" google-chrome
 #brew cask install --appdir="/Applications" google-drive
 #brew cask install --appdir="/Applications" google-music-manager
 #brew cask install --appdir="/Applications" google-earth
